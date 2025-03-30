@@ -5,7 +5,7 @@
 using namespace std;
 
 vector<int> twoSum(vector<int>& nums, int target) {
-    
+
     // Create an unordered_map to store previously seen numbers and indices
     unordered_map<int, int> numMap;
 
